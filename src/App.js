@@ -1,11 +1,13 @@
 import React from 'react';
+import FollowMouse from './components/FollowMouse';
 
 function App() {
   return (
-    <div>
+    <>
+      <FollowMouse />
       <h1>Мій React додаток</h1>
       <p>Ласкаво просимо!</p>
-    </div>
+    </>
   );
 }
 
